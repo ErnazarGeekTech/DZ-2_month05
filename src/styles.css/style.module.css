@@ -1,0 +1,99 @@
+.App {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .inner_todo {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .titles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .redux_img {
+    height: 40px;
+  }
+  
+  .addTask {
+    border: none;
+    border-bottom: 2px solid #dddddd;
+    width: 70%;
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .addtask {
+    border: none;
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contain {
+    margin-top: 20px;
+  }
+  
+  .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 10px;
+  }
+  
+  .todo {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .delete_todo {
+    border: none;
+    background-color: #dc3545;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete_todoIMg {
+    height: 20px;
+  }
+
+  
+li {
+    list-style-type: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&family=Inter&family=Roboto:wght@500&display=swap');
+
+.tittle {
+    font-family: roboto;
+}
